@@ -12,4 +12,9 @@ function triangleHash(num) {
   }
 }
 
-triangleHash(6);
+triangleHash(7);
+
+// The suggested solution is below:
+// It simplify the program as it only requires to print a hash triangle with 7 # base.
+
+for (let line = "#"; line.length < 8; line += "#") console.log(line);
